@@ -1,0 +1,127 @@
+.header {
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        text-align: center; 
+        list-style-position: inside;
+        }
+        h1{
+            text-shadow: 0 0 10px red;
+        }
+        a:visited {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        a{
+            font-size: 110%;
+            text-shadow: 5px 5px 5px blue;
+        }
+body {
+    background-image: url(/Develop/assets/images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1 {
+    display: center;
+    font-size: 60px;
+}
+
+img {
+    width: 110%;
+    border-radius: 100%;
+    color: blue;
+    border:solid;
+    padding: 10px;
+}
+
+.AboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+    padding: 5px;
+    color: white;
+}
+
+.AboutMe h2{
+    text-align: center;
+    text-shadow: 0 0 10px red;
+}
+
+.AboutMe p{
+    padding: 120px;
+    font-size: 130%;
+    text-shadow: 5px 5px 5px black;
+}
+
+.projects {
+    padding: 140px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    color: white;
+    gap: 30px 30px;
+    radius:50%;
+}
+
+.Projects h2 {
+font-size: 250%;
+text-shadow: 0 0 10px red;
+}
+
+.style {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 10px;
+    padding: 60px;
+    flex: auto;
+    text-align: center;
+    background-image: url(/Develop/assets/images/under_construction.jpg);
+    background-repeat: no-repeat;
+}
+
+.ContactMe{
+    padding: 10px;
+}
+  
+.ContactMeStyle p{
+    font-size: 175%;
+    text-shadow: 5px 5px 5px blue;
+}
+
+.ContactMe h2{
+    font-size: 250%;
+    text-shadow: 0 0 10px red;
+}
+    
+.ContactMeStyle {
+    padding: 60px;
+    flex: auto;
+    text-align: center; 
+}
+
+.ContactMeStyle header{
+    text-shadow: 0 0 20px ;
+    font-size: 250%;
+}
+
+.footer {
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    padding: 100px;
+}
+
+

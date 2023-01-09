@@ -1,3 +1,4 @@
+/* header */
 .header {
         padding: 10px;
         font-family: 'Times New Roman', Times, serif;
@@ -23,6 +24,7 @@
             font-size: 110%;
             text-shadow: 5px 5px 5px blue;
         }
+/* body */
 body {
     background-image: url(/Develop/assets/images/background.png);
     background-size: cover;
@@ -37,11 +39,9 @@ body {
 img {
     width: 110%;
     border-radius: 100%;
-    color: blue;
-    border:solid;
     padding: 10px;
 }
-
+/* about me section */
 .AboutMe {
     display: flex;
     align-items: center;
@@ -62,32 +62,45 @@ img {
     text-shadow: 5px 5px 5px black;
 }
 
-.projects {
-    padding: 140px;
+/* projects section */
+.container {
+    padding: 80px;
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
     color: white;
-    gap: 30px 30px;
+    gap: 20px 20px;
     radius:50%;
 }
 
-.Projects h2 {
+.container h2 {
 font-size: 250%;
 text-shadow: 0 0 10px red;
+text-align: center;
 }
 
-.style {
+.box1 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 10px;
+    padding:65px;
+    width:100%;
+    flex: auto;
+    text-align:right;
+    background-image: url(/Develop/assets/images/class-project-1-refactor.png);
+}
+
+.box {
     border-radius: 10px;
     border-style: solid;
     border-width: 10px;
     padding: 60px;
     flex: auto;
-    text-align: center;
+    text-align:center;
     background-image: url(/Develop/assets/images/under_construction.jpg);
     background-repeat: no-repeat;
 }
 
+/* contact me section */
 .ContactMe{
     padding: 10px;
 }
@@ -100,6 +113,7 @@ text-shadow: 0 0 10px red;
 .ContactMe h2{
     font-size: 250%;
     text-shadow: 0 0 10px red;
+    text-align: center;
 }
     
 .ContactMeStyle {
@@ -113,6 +127,7 @@ text-shadow: 0 0 10px red;
     font-size: 250%;
 }
 
+/* footer */
 .footer {
     padding: 50px;
     font-family: 'Times New Roman', Times, serif;
@@ -123,5 +138,3 @@ h2 {
     color: white;
     padding: 100px;
 }
-
-

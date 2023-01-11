@@ -26,7 +26,7 @@
         }
 /* body */
 body {
-    background-image: url(/Develop/assets/images/background.png);
+    background-image: url(/Portfolio/Develop/assets/images/background.png);
     background-size: cover;
     background-position: center;
 }
@@ -42,7 +42,7 @@ img {
     padding: 10px;
 }
 /* about me section */
-.AboutMe {
+.description {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,12 +51,12 @@ img {
     color: white;
 }
 
-.AboutMe h2{
+.description h2{
     text-align: center;
     text-shadow: 0 0 10px red;
 }
 
-.AboutMe p{
+.description p{
     padding: 120px;
     font-size: 130%;
     text-shadow: 5px 5px 5px black;
@@ -68,63 +68,70 @@ img {
     display: flex;
     flex-wrap:wrap;
     color: white;
-    gap: 20px 20px;
-    radius:50%;
+    gap: 20px 20px; 
 }
 
 .container h2 {
-font-size: 250%;
-text-shadow: 0 0 10px red;
-text-align: center;
+    font-size: 250%;
+    text-shadow: 0 0 10px red;
+    padding: 80px;
+    
 }
 
 .box1 {
     border-radius: 10px;
     border-style: solid;
     border-width: 10px;
-    padding:65px;
-    width:100%;
+    padding: 100px;
+    width: 100%;
     flex: auto;
-    text-align:right;
-    background-image: url(/Develop/assets/images/class-project-1-refactor.png);
+    background-image: url(/Portfolio/Develop/assets/images/class-project-1-refactor.png);
+}
+
+.box1 p{
+    color: red;
 }
 
 .box {
     border-radius: 10px;
     border-style: solid;
     border-width: 10px;
-    padding: 60px;
+    padding: 45px;
     flex: auto;
     text-align:center;
-    background-image: url(/Develop/assets/images/under_construction.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/Portfolio/Develop/assets/images/under_construction.jpg);
+    background-position: fill;
 }
 
 /* contact me section */
-.ContactMe{
+.Other {
     padding: 10px;
 }
   
-.ContactMeStyle p{
+.Other Style p{
     font-size: 175%;
     text-shadow: 5px 5px 5px blue;
 }
 
-.ContactMe h2{
+.Other h2{
     font-size: 250%;
     text-shadow: 0 0 10px red;
-    text-align: center;
+    text-align: left;
 }
     
-.ContactMeStyle {
+.OtherStyle {
     padding: 60px;
     flex: auto;
     text-align: center; 
 }
 
-.ContactMeStyle header{
+.OtherStyle header{
     text-shadow: 0 0 20px ;
     font-size: 250%;
+}
+
+.Other  img {
+    max-width: 200px;
 }
 
 /* footer */

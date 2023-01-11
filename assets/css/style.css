@@ -6,11 +6,13 @@
         text-align: center; 
         list-style-position: inside;
         }
+
         h1{
             text-shadow: 0 0 10px red;
         }
+
         a:visited {
-            color: white;
+            color: orange;
             background-color: transparent;
             text-decoration: none;
           }
@@ -20,13 +22,16 @@
             background-color: transparent;
             text-decoration: underline;
         }
+
         a{
             font-size: 110%;
             text-shadow: 5px 5px 5px blue;
+            color:white;
         }
+
 /* body */
 body {
-    background-image: url(/Portfolio/Develop/assets/images/background.png);
+    background-image: url(/assets/images/background.png);
     background-size: cover;
     background-position: center;
 }
@@ -41,6 +46,7 @@ img {
     border-radius: 100%;
     padding: 10px;
 }
+
 /* about me section */
 .description {
     display: flex;
@@ -85,7 +91,7 @@ img {
     padding: 100px;
     width: 100%;
     flex: auto;
-    background-image: url(/Portfolio/Develop/assets/images/class-project-1-refactor.png);
+    background-image: url(/assets/images/class-project-1-refactor.png);
 }
 
 .box1 p{
@@ -99,7 +105,7 @@ img {
     padding: 45px;
     flex: auto;
     text-align:center;
-    background-image: url(/Portfolio/Develop/assets/images/under_construction.jpg);
+    background-image: url(/assets/images/under_construction.jpg);
     background-position: fill;
 }
 

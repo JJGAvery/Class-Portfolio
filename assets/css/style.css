@@ -31,7 +31,7 @@
 
 /* body */
 body {
-    background-image: url(/assets/images/background.png);
+    background-image: url("../images/background.png");
     background-size: cover;
     background-position: center;
 }
@@ -91,7 +91,7 @@ img {
     padding: 100px;
     width: 100%;
     flex: auto;
-    background-image: url(/assets/images/class-project-1-refactor.png);
+    background-image: url("../images/class-project-1-refactor.png");
 }
 
 .box1 p{
@@ -105,7 +105,7 @@ img {
     padding: 45px;
     flex: auto;
     text-align:center;
-    background-image: url(/assets/images/under_construction.jpg);
+    background-image: url("../images/under_construction.jpg");
     background-position: fill;
 }
 

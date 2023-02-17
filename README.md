@@ -11,4 +11,4 @@ Hello, My name is Jordan! Thank you for taking the time to consider my applicati
 - CSS
 
 ## **Preview**
-![Jordan Avery Portfolio Screenshot](./assets/images/portfolio-screenshot-1.10.23.png)
+![Jordan Avery Portfolio Screenshot](../Portfolio/assets/images/portfolio_screenshot.png)
